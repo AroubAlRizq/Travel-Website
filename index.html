@@ -5,9 +5,8 @@
   <meta name="description" content="Travel Guide Website" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Travel Guide - Homepage</title>
-  <!-- Link to your CSS file -->
-  <link rel="stylesheet" href="style.css" />
-  <!-- Example Google Fonts (optional) -->
+  <!-- CSS style sheet -->
+  <link rel="stylesheet" href="global/style.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
 </head>
@@ -19,11 +18,11 @@
     </div>
     <nav class="navbar">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Video</a></li>
-        <li><a href="#">Schedule</a></li>
-        <li><a href="#">Feedback</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/services.html">Services</a></li>
+        <li><a href="pages/video.html">Destination</a></li>
+        <li><a href="pages/schedule.html">Schedule</a></li>
+        <li><a href="pages/feedback.html">Feedback</a></li>
       </ul>
     </nav>
   </header>
@@ -33,31 +32,41 @@
     <div class="hero-content">
       <h2>Explore the Saudi Arabia with Confidence</h2>
       <p>Discover Saudi Arabia, get insider tips, and plan your next journey.</p>
-      <a href="#" class="btn hero-btn">Start Exploring</a>
+      <a href="services.html" class="btn hero-btn">Start Exploring</a>
     </div>
   </section>
-
-  <!-- Featured Destinations Section -->
-  <section class="destinations">
-    <h2>Featured Destinations In Saudi Arabia</h2>
-    <div class="destinations-grid">
+<!-- Featured Destinations Section -->
+<section class="destinations">
+  <h2>Featured Destinations In Saudi Arabia</h2>
+  <div class="destinations-grid">
+    
+    <a href="pages/video.html" class="destination-link">
       <article class="destination-card">
-        <img src="https://via.placeholder.com/300x200" alt="Destination 1" />
+        <img src="images/Riyadh.jpeg" alt="Riyadh" />
         <h3>Riyadh</h3>
         <p>Discover the capital, brimming with elegance and sophistication.</p>
       </article>
+    </a>
+
+    <a href="pages/video.html" class="destination-link">
       <article class="destination-card">
-        <img src="https://via.placeholder.com/300x200" alt="Destination 2" />
-        <h3>Makkah</h3>
-        <p>Explore the ancient architecture, amazing food, and scenic ocean views you can’t miss.</p>
+        <img src="images/dammam.jpg" alt="Dammam" />
+        <h3>Dammam</h3>
+        <p>Discover the capital, brimming with elegance and sophistication.</p>
       </article>
+    </a>
+
+    <a href="pages/video.html" class="destination-link">
       <article class="destination-card">
-        <img src="https://via.placeholder.com/300x200" alt="Destination 3" />
+        <img src="images/jeddah.jpg" alt="Jeddah" />
         <h3>Jeddah</h3>
         <p>Come for the beaches, stay for the vibrant nightlife and cultural fusion.</p>
       </article>
-    </div>
-  </section>
+    </a>
+
+  </div>
+</section>
+
 
   <!-- About / Info Section -->
   <section class="about">
