@@ -11,4 +11,4 @@ COPY . .
 EXPOSE 10000
 
 # Start PHP server on required host and port
-CMD ["php", "-S", "0.0.0.0:10000", "-t", "."]
+CMD ["php", "-S", "0.0.0.0:10000", "-t", "pages"]
